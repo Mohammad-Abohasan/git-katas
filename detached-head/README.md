@@ -13,7 +13,7 @@ Answer:  <br />
 ```
 HEAD detached at c6bc3dd
 nothing to commit, working tree clean
-```,
+```
 ```
 * a8c914b (master) D
 * 5b76325 C
@@ -23,7 +23,9 @@ nothing to commit, working tree clean
 
 2. Restore normalcy in this repository by moving to `master`
 Answer:  <br />
-`git checkout master`
+```
+git checkout master
+```
 
 Note that this task might seem more confusing if you did not run `setup.sh` in your terminal.
 
@@ -31,7 +33,9 @@ We want to have a branch called `the-beginning` that is made from the first comm
 
 3. Can you do this by first causing a detached head? <br />
 Answer:  <br />
-`git checkout c6bc3dd`,
+```
+git checkout c6bc3dd
+```
 ```
 $ git log --oneline --graph --all
 
